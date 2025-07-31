@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piyas- Developer portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Piyas portfolio</div>
+      <div class="right">
+        <ul id ="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <i class="fa-solid fa-square-xmark"onClick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars"onClick="openmenu()"></i>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftsection">
+        Hi My name is <span class="purple"> Piyas</span>
+        <div> and I am a web passanate</div>
+        <span id="element"></span>
+        <div class="buttons">
+           <button><a href="images/Piyas-resume.pdf.pdf" class="btn"Download>Download Resume</a></button>
+           <button><a href= "https://github.com/piyas3009" class="btn"Visit>Visit Github </a></button>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="bg.png" alt="">
+      </div>
+    </section>
+    <!-- ---------about-------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/piyas.pmg.jpg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dolores nostrum impedit eveniet aliquam inventore 
+              rerum repellat, non nemo, obcaecati a deleniti. Dignissimos alias quas, quis exercitationem fugit dolorem? Possimus!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dolores nostrum impedit eveniet aliquam inventore 
+              rerum repellat, non nemo, obcaecati a deleniti. Dignissimos alias quas, quis exercitationem fugit dolorem? Possi</p>
+              <div class="tab-title">
+                <p class="tab-links active-link"onClick="opentab('skills')">Skills</p>
+                 <p class="tab-links"onClick="opentab('experience')">Experience</p>
+                  <p class="tab-links"onClick="opentab('Education')">Education</p>
+                
+              </div>
+              <div class="tab-contents active-tab"id="skills">
+                <ul>
+                  <li><span>UI/UX</span><br>Desinging web iinterfaces</li>
+                  <li><span> web Development </span><br> Frontend Developer</li>
+                  <li><span> Web Developer</span><br>Backend Developer</li>
+              </div>
+                 <div class="tab-contents"id="experience">
+                <ul>
+                   <li><span>2025:June</span><br>UI desinging training at proxenix-company</li>
+                  <li><span> 2025:JULY</span><br> web-developer Intern at my job grow platform</li>
+                  <li><span> 2025:August</span><br>S&T traing at Dvc</li>
+                </ul>
+              </div>
+               <div class="tab-contents"id="Education">
+                <ul>
+                   <li><span>2023-2026</span><br>Btech from Kalayni Goverment Enginnering college</li>
+                  <li><span> 2020-2023</span><br> Diploma from Engiineering institute for junior executives college</li>
+                  <li><span>2017- 2019</span><br>Hiiger Secondary from Dharsa miihir-lal khan instituition</li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="secondSection">
+      <span class="text-grey">What I have done so far</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="">
+          <div class="vertical-title">
+            HTML Developer (2010-2012)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Recusandae, consequuntur laboriosam voluptatum officia quis qui,
+            ipsam quae alias similique non quod quo nesciunt.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="Nodejs.png" alt="">
+          <div class="vertical-title">
+            Node-js Developer (2012-2014)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Recusandae, consequuntur laboriosam voluptatum officia quis qui,
+            ipsam quae alias similique non quod quo nesciunt.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="insta.png" alt="">
+          <div class="vertical-title">
+            HTML Developer (2010-2012)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Recusandae, consequuntur laboriosam voluptatum officia quis qui,
+            ipsam quae alias similique non quod quo nesciunt.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="react.png" alt="">
+          <div class="vertical-title">
+            HTML Developer (2010-2012)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Recusandae, consequuntur laboriosam voluptatum officia quis qui,
+            ipsam quae alias similique non quod quo nesciunt.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-tp" src="JS.png" alt="">
+          <div class="vertical-title">
+            HTML Developer (2010-2012)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Recusandae, consequuntur laboriosam voluptatum officia quis qui,
+            ipsam quae alias similique non quod quo nesciunt.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="developer.png" alt="">
+          <div class="vertical-title">
+            HTML Developer (2010-2012)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Recusandae, consequuntur laboriosam voluptatum officia quis qui,
+            ipsam quae alias similique non quod quo nesciunt.
+          </div>
+        </div>
+
+        <div class="vertical"></div>
+        <div class="vertical"></div>
+    </section>
+  </main>
+  <!-- -------------projects------------ -->
+  <div id ="projects">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="Projects-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+        <h2>Portfolio-website</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sunt nulla repellendus porro natus animi dicta officiis 
+          modi aspernatur magnam, at cupiditate, placeat accusantium error commodi ad ducimus tempore! Cupiditate?</p>
+          <a href ="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+        <h2>Weather-app</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sunt nulla repellendus porro natus animi dicta officiis 
+          modi aspernatur magnam, at cupiditate, placeat accusantium error commodi ad ducimus tempore! Cupiditate?</p>
+          <a href ="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+        <h2>Spotify-clone</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sunt nulla repellendus porro natus animi dicta officiis 
+          modi aspernatur magnam, at cupiditate, placeat accusantium error commodi ad ducimus tempore! Cupiditate?</p>
+          <a href ="#">Learn more</a>
+          </div>
+      </div> 
+    </div>
+  </div>
+  <!-- ----------Contact------------>
+   <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>sasmalpiyas8@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9681588482</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+           </div>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text"name="Name"placeholder="your name"required>
+            <input type="email"name="Email"placeholder="your Email"required>
+            <textarea name="Message"rows="6"placeholder="your Message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+       </div>
+    </div>
+    <div class="copy-right">
+      <p>copy-right@ Piyas.Made with <i class="fa-solid fa-heart"></i>by Easy Tutorials</p>
+    </div>
+   </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+      typeSpeed: 50,
+    });
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+     var sidemenu =document.getElementById("sidemenu");
+     function openmenu(){
+      sidemenu.style.right ="0";
+     }
+       function closemenu(){
+      sidemenu.style.right ="200px";
+     }
+  </script>
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbymLOlnbrmFkmV9iNjaE8rmWi-N6sfSctyVDxOaox7PABfUVVE1yYbvw4-09V3sSJki/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Messge sent succesfully"
+        setTimeout(function(){
+         msg.innerHTML =""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
