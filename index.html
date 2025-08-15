@@ -38,7 +38,7 @@
         <div> and I am a web passanate</div>
         <span id="element"></span>
         <div class="buttons">
-           <button><a href="images/Piyas-resume.pdf.pdf" class="btn"Download>Download Resume</a></button>
+           <button><a href="https://docs.google.com/document/d/1xFfG0DXdYpbVrFhGUv8HEJc3XHJysBEk/edit" class="btn"Download>Download Resume</a></button>
            <button><a href= "https://github.com/piyas3009" class="btn"Visit>Visit Github </a></button>
         </div>
       </div>
@@ -55,10 +55,14 @@
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dolores nostrum impedit eveniet aliquam inventore 
-              rerum repellat, non nemo, obcaecati a deleniti. Dignissimos alias quas, quis exercitationem fugit dolorem? Possimus!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dolores nostrum impedit eveniet aliquam inventore 
-              rerum repellat, non nemo, obcaecati a deleniti. Dignissimos alias quas, quis exercitationem fugit dolorem? Possi</p>
+            <p>🔬 A dedicated engineering student with a passion for innovation and consistent learning as well as thinking solutions to real life problems. Currently pursuing Bachelor of Technology with a focus on Electronics and Communication Engineering at Kalyani Government Engineering College. 
+         🎓<br>
+🚀 Skills:
+->Proficient in Java .
+->Working on being a Web developer
+->Exceptional problem-solving and critical thinking skills
+->Also interest in Mathematics and Electronics field
+->Others: ReactJS</p>
               <div class="tab-title">
                 <p class="tab-links active-link"onClick="opentab('skills')">Skills</p>
                  <p class="tab-links"onClick="opentab('experience')">Experience</p>
@@ -203,9 +207,9 @@
           <p><i class="fa-solid fa-phone"></i>9681588482</p>
           <div class="social-icons">
             <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/piyas3009"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/piyas_30092001/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope"></i></a>
            </div>
         </div>
         <div class="contact-right">
@@ -225,10 +229,19 @@
    </div>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>
-    var typed = new Typed('#element', {
-      strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
-      typeSpeed: 50,
-    });
+  var typed = new Typed('#element', {
+    strings: [
+      'Web Developer',
+      'Graphic Designer',
+      'Frontend Developer',
+      'React Learner',
+      'Java Developer'
+    ],
+    typeSpeed: 50,
+    backSpeed: 25,    // Speed when deleting text
+    backDelay: 1500,  // Pause before deleting
+    loop: true        // ✅ Keep repeating
+  });
     var tablinks=document.getElementsByClassName("tab-links");
     var tabcontents=document.getElementsByClassName("tab-contents");
     function opentab(tabname){
@@ -248,7 +261,7 @@
       sidemenu.style.right ="0";
      }
        function closemenu(){
-      sidemenu.style.right ="200px";
+      sidemenu.style.right ="-250px";
      }
   </script>
   <script>
