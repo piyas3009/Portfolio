@@ -42,12 +42,12 @@
 
     nav ul li a  {
       text-decoration: none;
-      color: rgb(204, 179, 226)
+      color: rgb(247, 247, 247)
       
     }
     nav ul li a:hover {
       font-size: 1.02rem;
-      color: rgb(95, 95, 218);
+      color: rgb(91, 121, 255);
       
     }
 
@@ -195,13 +195,14 @@
     }
 
     .secondSection .vertical {
-      height: 93px;
+      height: 160px;
       width: 1px;
       background-color: white;
       margin: 0 90px;
     }
 
     .image-top {
+      height: auto;
       width: 23px;
       position: relative;
       top: -33px;
@@ -218,6 +219,7 @@
     .vertical-title {
       position: relative;
       width: 150px;
+      margin-left: 12px;
     }
 
     .vertical-desc {
@@ -225,6 +227,7 @@
       color: gray;
       width: 150px;
       font-size: 9px;
+      margin-left: 12px;
     }
 
     /* ------projects------- */
